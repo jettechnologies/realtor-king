@@ -1,4 +1,5 @@
-import heroBanner from "./assets/hero-banner.jpg";
+// import heroBanner from "./assets/hero-banner.jpg";
+import heroVideo from "./assets/hero-video.mp4";
 import brooklineEstate from "./assets/Brookline-estate.jpg";
 import jadeEstate from "./assets/Jade-estate.jpg";
 import maverickEstate from "./assets/maverick-estate.jpg";
@@ -16,7 +17,8 @@ const App = () => {
       </header>
       <section className="w-full">
         <div className="h-[320px] relative">
-          <img src={heroBanner} alt="hero banner" className="w-full h-full object-cover"/>
+          {/* <img src={heroBanner} alt="hero banner" className="w-full h-full object-cover"/> */}
+          <video src={heroVideo} autoPlay muted loop className="w-full h-full object-cover"/>
           <div className="w-full h-full absolute top-0 left-0 bg-footer-bg opacity-70">
           </div>
           <div className="relative z-10 -top-2/3 w-full max-sm:pl-6 md:w-[51%] md:ml-16 lg:ml-20">
