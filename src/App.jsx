@@ -2,6 +2,7 @@ import heroBanner from "./assets/hero-banner.jpg";
 import brooklineEstate from "./assets/Brookline-estate.jpg";
 import jadeEstate from "./assets/Jade-estate.jpg";
 import maverickEstate from "./assets/maverick-estate.jpg";
+import kansamApartments from "./assets/Kansam_apartment.jpg";
 import facebookIcon from "./assets/facebook-icon.png";
 import instagramIcon from "./assets/instagram-icon.png";
 import locationIcon from "./assets/location-icon.png";
@@ -46,6 +47,13 @@ const App = () => {
                   <div className="flex gap-2 w-fit mx-auto">
                     <img src={locationIcon} alt="location icon" className="w-6 h-6 object-cover"/>
                     <p className="text-xl font-bold text-black capitalize">olodo, ibadan, oyo</p>
+                  </div>
+                </a>
+                <a href="https://wa.me/p/7456227687791648/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] aspect-square">
+                  <img src={kansamApartments} alt="kansam apartments banner" className="w-full h-[90%] object-cover mb-3"/>
+                  <div className="flex gap-2 w-fit mx-auto">
+                    <img src={locationIcon} alt="location icon" className="w-6 h-6 object-cover"/>
+                    <p className="text-xl font-bold text-black capitalize">Agodi, ibadan, oyo</p>
                   </div>
                 </a>
             </div>
