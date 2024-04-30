@@ -2,10 +2,11 @@
 import heroVideo from "./assets/hero-video.mp4";
 import brooklineEstate from "./assets/Brookline-estate.jpg";
 import jadeEstate from "./assets/Jade-estate.jpg";
-import maverickEstate from "./assets/maverick-estate.jpg";
+import vintageEstate from "./assets/vintage-estate.jpg";
 import kansamApartments from "./assets/Kansam_apartment.jpg";
 import facebookIcon from "./assets/facebook-icon.png";
 import instagramIcon from "./assets/instagram-icon.png";
+import youtubeIcon from "./assets/youtube-icon.svg";
 import locationIcon from "./assets/location-icon.png";
 
 
@@ -30,28 +31,28 @@ const App = () => {
             <h3 className="font-bold text-lg text-extra lg:text-xl leading-5 mb-3">Reach out to us</h3>
             <p className="text-base font-semibold text-footer-bg leading-[1.15em]">Feel free to browse though some of our estate catalogs through the links below</p>
             <div className="w-full mt-6 flex flex-col lg:flex-row lg:flex-wrap gap-6 justify-center py-4">
-                <a href="https://wa.me/p/25057539827226925/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] aspect-square">
+                <a href="https://wa.me/p/25057539827226925/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] h-[60%]">
                   <img src={brooklineEstate} alt="brookline estate banner" className="w-full h-[90%] object-cover mb-3"/>
                   <div className="flex gap-2 w-fit mx-auto">
                     <img src={locationIcon} alt="location icon" className="w-6 h-6 object-cover"/>
                     <p className="text-xl font-bold text-black capitalize">ketu, epe, lagos</p>
                   </div>
                 </a>
-                <a href="https://wa.me/p/5900554923402471/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] aspect-square">
+                <a href="https://wa.me/p/5900554923402471/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] h-[60%]">
                   <img src={jadeEstate} alt="jade estate banner" className="w-full h-[90%] object-cover mb-3"/>
                   <div className="flex gap-2 w-fit mx-auto">
                     <img src={locationIcon} alt="location icon" className="w-6 h-6 object-cover"/>
                     <p className="text-xl font-bold text-black capitalize">ido, ibadan, oyo</p>
                   </div>
                 </a>
-                <a href="https://wa.me/p/7195720537223485/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] aspect-square">
-                  <img src={maverickEstate} alt="maverick estate banner" className="w-full h-[90%] object-cover mb-3"/>
+                <a href="https://wa.me/p/7153381148115154/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] h-[60%]">
+                  <img src={vintageEstate} alt="maverick estate banner" className="w-full h-[90%] object-cover mb-3"/>
                   <div className="flex gap-2 w-fit mx-auto">
                     <img src={locationIcon} alt="location icon" className="w-6 h-6 object-cover"/>
-                    <p className="text-xl font-bold text-black capitalize">olodo, ibadan, oyo</p>
+                    <p className="text-xl font-bold text-black capitalize">ajia, ibadan, oyo</p>
                   </div>
                 </a>
-                <a href="https://wa.me/p/7456227687791648/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] aspect-square">
+                <a href="https://wa.me/p/7456227687791648/2347016383381" target="_blank" rel="noopener noreferrer" className="w-full lg:w-[45%] h-[60%]">
                   <img src={kansamApartments} alt="kansam apartments banner" className="w-full h-[90%] object-cover mb-3"/>
                   <div className="flex gap-2 w-fit mx-auto">
                     <img src={locationIcon} alt="location icon" className="w-6 h-6 object-cover"/>
@@ -86,7 +87,7 @@ const App = () => {
             </div>
             <div className="flex flex-col gap-4">
               <h3 className="font-bold text-base text-black uppercase">or visit our social links</h3>
-              <div className="flex gap-x-4 justify-center">
+              <div className="flex gap-4 justify-center flex-wrap">
                 <a href="https://www.instagram.com/realtorking_" target="_blank" rel="noopener noreferrer" className="w-fit h-8 flex gap-2 ">
                   <img src={instagramIcon} alt="instagram icon" className="w-8 aspect-square object-cover"/>
                   <p className="font-semibold text-sm text-footer-bg leading-[1.5em] self-center">
@@ -97,6 +98,12 @@ const App = () => {
                   <img src={facebookIcon} alt="facebook icon" className="w-8 aspect-square object-cover"/>
                   <p className="font-semibold text-sm text-footer-bg leading-[1.5em] self-center">
                     Realtor_king
+                  </p>
+                </a>
+                <a href="https://www.youtube.com/@Realtorking-" target="_blank" rel="noopener noreferrer" className="w-fit h-8 flex gap-2">
+                  <img src={youtubeIcon} alt="youtube icon" className="w-8 aspect-square object-cover"/>
+                  <p className="font-semibold text-sm text-footer-bg leading-[1.5em] self-center">
+                    Realtorking
                   </p>
                 </a>
               </div>
